@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kathmandu University ITC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: #ffffff;
+        color: #111;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background: #fff;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      .hero {
+        padding: 120px 40px;
+        background: linear-gradient(135deg, #1d1d1d, #3b0bd1, #c400de);
+        color: white;
+        text-align: left;
+      }
+      .hero h1 {
+        font-size: 56px;
+        font-weight: 700;
+        max-width: 800px;
+        line-height: 1.1;
+      }
+      .hero p {
+        font-size: 18px;
+        max-width: 600px;
+        margin-top: 20px;
+        opacity: 0.9;
+      }
+      section {
+        padding: 80px 40px;
+      }
+      .section-title {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+      .card {
+        padding: 25px;
+        border-radius: 12px;
+        background: #f8f8f8;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+      }
+      footer {
+        background: #111;
+        color: white;
+        padding: 60px 40px;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>KUITC</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#units">Units</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome to the Information Technology Center</h1>
+      <p>
+        At the heart of Kathmandu University’s digital transformation.
+        Empowering education, research, and innovation.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        The Information Technology Center (ITC) of Kathmandu University,
+        established in 2025, is the central body responsible for planning,
+        developing, managing, and maintaining the University’s ICT
+        infrastructure.
+      </p>
+      <p>
+        Our team consists of skilled Engineers, System Administrators,
+        Academics, and Researchers dedicated to ensuring uninterrupted
+        connectivity, efficient data management, and secure communication across
+        KU’s departments and research centers.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Mission & Vision</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Mission</h3>
+          <p>
+            To transform the nation's ICT landscape with cutting-edge research
+            and development solutions.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Vision</h3>
+          <p>
+            To build a digitally advanced, secure, and sustainable IT ecosystem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Computing & Data Services</h3>
+          <p>High‑performance computing and reliable data storage.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud & Hosting</h3>
+          <p>Cloud storage, virtualization, and server management.</p>
+        </div>
+        <div class="card">
+          <h3>Network & Security</h3>
+          <p>Campus network management with robust security.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="units">
+      <h2 class="section-title">Our Specialized Units</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>High Performance Computing Unit</h3>
+          <p>Hosting KU’s computation clusters with CERN‑donated hardware.</p>
+        </div>
+        <div class="card">
+          <h3>Artificial Intelligence Excellence Unit</h3>
+          <p>
+            Advancing AI literacy, policy research, and ethical applications.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Crisis Informatics Research Unit</h3>
+          <p>Building Nepal’s National Crisis Intelligence System.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2 class="section-title">Our Team</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Prof. Dr. Sudan Jha</h3>
+          <p>Associate Director</p>
+        </div>
+        <div class="card"><h3>Santosh Shaha</h3></div>
+        <div class="card"><h3>Sanjog Sigdel</h3></div>
+        <div class="card">
+          <h3>Sabin Ranabhat</h3>
+          <p>Research Intern</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p>Email: itc@ku.edu.np</p>
+      <p>Location: NTIC Building, Kathmandu University, Dhulikhel Campus</p>
+    </section>
+
+    <footer>
+      <p>
+        © 2025 Kathmandu University ITC | Empowering Knowledge through
+        Technology
+      </p>
+    </footer>
+  </body>
+</html>
